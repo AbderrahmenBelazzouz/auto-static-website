@@ -1,0 +1,238 @@
+html{
+		width: 100%;
+		height: 100%;
+	}
+
+body { 
+font-family: "Times New Roman", sans-serif;
+background-color: white; 
+margin: 0;
+padding: 0;
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+header {
+		position: fixed;
+		width: 100%;
+		background-color: #D0D0D0;
+		height: 60px;
+		padding: 0px 40px;
+		border:1px solid black;
+		overflow: hidden;
+		display: block;
+}
+
+.div {
+	position: relative;
+	display: block;
+	max-width: 1400px;
+	width: 100%;
+	bottom: 50%;
+	max-height: 100%;
+}
+
+.div ul{
+	list-style-type: none;
+}
+
+.logo{
+	position: fixed;
+	display: block;
+    height:28px;
+    object-fit: contain; 
+    text-align: center ;
+	float: left;
+	padding: 0px 0px;
+	margin : 10px auto 10px;
+}
+
+.nav{
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	bottom: 50% ;
+	right : 5%;
+	margin: auto 10px auto 10px ;
+	float: right; 
+	padding: 10px 0;
+	font-weight: bold;
+	font-size: 18px ;
+	list-style-type: none;
+}
+
+.c {
+	text-decoration :none;
+	color: blue;
+   }
+
+.c:hover{
+	background-color: #ff0000 ;
+
+}
+
+.c:active{
+	background-color: pink ;
+	border-radius: 4px ;
+	color:blue;
+}
+
+
+
+section {
+	width: 60%;
+	height: 80%;
+	bottom: 10%;
+	margin: 0;
+  	left: 0;
+ 	right:0;
+ 	padding: 10px;
+	display: inline;
+	background-position: center;
+	clear: both;
+	top: 63px;
+	margin : 0 auto ; 
+	bottom: 63px;
+	background-size: 100% 100%;
+	position: fixed;
+	background-image: url("../img/fondecran.jpg") ;
+	background-repeat: no-repeat ;
+	overflow: hidden;
+}
+
+.prixg {
+	padding: 0;
+	padding-top: 10px;
+	margin: 0;
+	width: 80%;
+	left:3%;
+	bottom: 5%;
+	float: left;
+	display: block; 
+	position: absolute;
+}
+
+.fond{
+	bottom: 50% ;
+	height: 70%;
+	width: 37%;
+	top: 15%;
+	bottom: 5%;
+	padding: 3px 3px 3px 3px;
+	margin: 0 auto;
+	max-width: 1000px;
+	max-height:1000px ;
+	float: left;
+	clear:both;
+	position: absolute; 
+}
+
+.fond:hover {
+	padding: 0px;
+	height: 90%;
+	top: 5%;
+	width: 37%;
+}
+
+.art {
+ 	position: relative; 
+	display: inline-block; 
+	width: 90%; 
+	height: 45%; 
+	float: left;
+	color: black;
+	margin : 5px 0px 5px 20px ;
+	padding-left: 16px;
+	border:4px solid #4ccc63;
+	clear: right;
+	overflow: hidden;
+	opacity: 0.92;
+	background-color: rgb(249, 246, 255);
+}
+
+.float{
+	float: right;
+	bottom: 0%;
+	right: 2%;
+	width: 60%;
+	color: black;
+	padding-right: 10px;
+	display: block;
+	overflow: hidden;
+}
+
+.input{ 
+	display: inline-block; 
+	position: relative;
+	float: right;
+	clear: left;
+	bottom: 0%;
+}
+
+.color{ 
+	background-color: red;
+	display: inline-block;
+	position: relative; 
+	float: right;
+	clear: left;
+}
+
+.formulaire {
+	height: 100%;
+	width: 60%;
+	max-width: 1000px;
+	float: right;
+	display: block;
+	padding: 0;
+	position: relative;
+}
+
+.p1 {
+	padding: 0;
+	padding-top: 10px;
+	margin: 0;
+	color: black;
+	size: 20px;
+	font-weight: bold; 
+}
+
+.p2{
+	padding: 0;
+	padding-top: 10px;
+	margin: 0;
+	color: black;
+	size : 8px;
+}
+
+.top{top: 0%;
+	margin: 0 ;
+	padding: 0;
+	height: 80%;
+	position: relative;
+	display: block;
+}
+
+.bottom{	
+	bottom: 0%;
+	margin: auto ;
+	margin: 0 ;
+	padding: 0;
+	height: 10%;
+	perspective: relative;
+	display: block;
+	overflow: hidden;
+}
+
+footer {
+		width: 100%;
+		background-color: #D0D0D0;
+		height: 60px;
+		bottom: 0;
+		position: fixed;
+		border-top: :1px solid gray;
+		overflow: hidden;
+		text-align: center;
+		clear: both;
+		display: block;
+}
